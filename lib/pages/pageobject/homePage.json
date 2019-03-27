@@ -1,0 +1,10 @@
+{
+   "addBagIcon": {
+      "type": "css",
+      "value": ".AddBagIcon"
+   },
+   "product": {
+      "type": "css",
+      "value": ".container-box"
+   }
+}
