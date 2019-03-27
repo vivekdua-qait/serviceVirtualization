@@ -17,7 +17,7 @@ describe('Checkout Tests', () => {
     await this.homePage.clickOnBagIcon();
     await this.homePage.getProductCount().then(function(el){
       assert.equal(el.length, 4);
-      this.homePage.log('Products has been added into the Shopping Cart');
+      console.log('Products has been added into the Shopping Cart');
     });
   });
 });
